@@ -31,5 +31,7 @@ def data_cleaning(df: pd.DataFrame) -> pd.DataFrame:
     limite_superior = df_clean['Quantidade'].mean() + 3 * df_clean['Quantidade'].std()
     df_clean = df_clean[df_clean['Quantidade'] < limite_superior]
 
+    print("Dados limpos com sucesso!")
+
     return df_clean
 

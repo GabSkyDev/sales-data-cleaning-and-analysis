@@ -1,5 +1,4 @@
 import pandas as pd
-import matplotlib.pyplot as plt
 from src.data_cleaning import data_cleaning
 
 def load_clean_and_process(path: str) -> pd.DataFrame:

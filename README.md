@@ -34,7 +34,7 @@ Este projeto implementa um pipeline de dados robusto para análise de vendas, co
 #### 1. Clone o repositório
 
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/GabSkyDev/sales-data-cleaning-and-analysis.git
 cd sales-data-cleaning-and-analysis
 ```
 
